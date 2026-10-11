@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [Elaf Saad Bin Thunayan] |
+| **Student ID** | [446051372] |
+| **University Email** | [446051372]@std.psau.edu.sa |
+| **GitHub Username** | [ElafSaadx] |
+| **Repository Link** | [https://github.com/ElafSaadx/OS-Assignment1-Elaf-AlThunayan] |
  
 ---
 
@@ -129,68 +129,90 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [October 8, 2026, 8:00 pm]
+**What I did**: installed the required programs and tools.
 
 **Details**:
+-Downloaded the programs needed for the assignment.
+-Started setting up Java and Visual Studio Code
 
-**Challenges**:
+**Challenges**:I had difficulty installing the JDK and connecting it to Visual Studio Code.
 
-**Solution**:
+**Solution**:I searched for solution on the internet and worked on setting up the JDK and connecting it to Visual Studio Code so I could run my Java code.
 
-**Time spent**:
+**Time spent**: about 1 hour and a half
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [October 8, 2026, 9:57 PM]
+**What I did**: Updated my student ID.
 
 **Details**:
+-Found the student ID in the code.
 
-**Challenges**:
+-Changed it to my own student ID.
 
-**Solution**:
+**Challenges**:no challenges faced.
+
+**Solution**: ----
 
 **Time spent**:
-
+20 minutes
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 3 - [October 9, 2026, 9:32 PM]
+**What I did**:dded Feature 1: Process Priority.
 
 **Details**:
+-Added a priority value for each process.
 
-**Challenges**:
+-Made the program give each process a random priority.
 
-**Solution**:
+-Updated the constructor to save the priority.
 
-**Time spent**:
+-Added the priority to the ready queue message
+
+**Challenges**:The priority did not appear in the output at first.
+
+**Solution**:I checked the code that creates the processes and the message that prints when a process enters the ready queue.
+
+**Time spent**: about 1 hour and 40 minutes
 
 ---
 
 ### Entry 4 - [Date and Time]
-**What I did**:
+**What I did**: Added Feature 2: Context Switch Counter.
 
 **Details**:
+-Added a counter to count when process threads start.
+-Updated the counter when a thread starts.
+-Added a message to show the final count at the end.
 
-**Challenges**:
+**Challenges**:I needed to find the correct place to update and print the counter.
 
-**Solution**:
+**Solution**:I added the counter update before the thread starts and printed the result at the end of the program.
 
-**Time spent**:
+**Time spent**: 45 minutes.
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 5 - [October 10, 2026, 5:52 PM]
+**What I did**:Added Feature 3: Waiting Time Tracking.
 
 **Details**:
+-Added variables to save the process creation time and waiting time.
 
-**Challenges**:
+-Used System.currentTimeMillis() to measure time.
 
-**Solution**:
+-Added methods to calculate the waiting time.
 
-**Time spent**:
+-Updated the final output to show the process name, burst time, waiting time, and turnaround time.
+
+**Challenges**:I found it difficult to know where to calculate the waiting time and how to calculate the turnaround time.
+
+**Solution**:I added the timing code in the correct places and updated the output to show the required information.
+
+**Time spent**: about 2-3 hours
 
 ---
 
@@ -211,14 +233,14 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [7-8 hours]
 
-**Most challenging part**:
+**Most challenging part**:The hardest part was installing the JDK and connecting it to Visual Studio Code. I also needed to understand where to add the new code without affecting the original program.
 
-**Most interesting learning**:
+**Most interesting learning**: I learned how to use System.currentTimeMillis() to track timeand work with threads and a ready queue in a CPU scheduling simulation.
 
 **What I would do differently next time**:
-
+I would set up the programs earlier and test each feature after adding it. This would help me find and fix problems more easily.
 ---
 
 # Part B: Reflection (0.5 mark)
