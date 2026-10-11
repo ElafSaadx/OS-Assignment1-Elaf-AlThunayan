@@ -259,7 +259,7 @@ I would set up the programs earlier and test each feature after adding it. This 
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I learned that multithreading allows a program to run multiple threads. In this assignment, I learned how threads work in a CPU scheduling simulation. I also learned how the ready queue stores processes waiting for their turn. The time quantum gives each process a limited time to run. If a process is not finished, it can return to the ready queue. This helped me understand how the CPU shares its time between processes]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -267,7 +267,7 @@ I would set up the programs earlier and test each feature after adding it. This 
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Installing the JDK was the hardest part. I was at first unaware that running Java code in Visual Studio Code required the JDK. I had no idea how to configure the PATH on my laptop after downloading it. I was confused because I didn't understand how Java and Visual Studio Code worked together. This made it difficult for me to start working on the assignment.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -275,7 +275,7 @@ I would set up the programs earlier and test each feature after adding it. This 
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[ I looked for a YouTube tutorial to install the JDK and set up the PATH. I followed the instructions until my code worked in Visual Studio Code. For the code, I checked each section to find where changes needed to be made when adding new features. After making the changes I tested the code to make sure the features worked as intended. When I faced problems, I reviewed the code and tried to understand my mistakes.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -283,7 +283,7 @@ I would set up the programs earlier and test each feature after adding it. This 
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Google Chrome uses multiple processes and threads to run different tasks. When I open a website, the page loads while I keep using the browser. Music apps let me play songs while I use other features. Games also use multiple threads to handle tasks such as graphics and player actions. In my assignment, I learned that processes share the CPU by taking turns. These examples show that multithreading helps programs work on different tasks more smoothly.]
 
 ### Optional: What would you like to learn more about?
 
